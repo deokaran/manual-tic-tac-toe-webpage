@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title" id="title">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+    
+    <div class="grid" id="grid">
+        <div class="gridbox" id="box0" onclick="clicked0(); this.onclick=null;"></div>
+        <div class="gridbox" id="box1" onclick="clicked1(); this.onclick=null;"></div>
+        <div class="gridbox" id="box2" onclick="clicked2(); this.onclick=null;"></div>
+        <div class="gridbox" id="box3" onclick="clicked3(); this.onclick=null;"></div>
+        <div class="gridbox" id="box4" onclick="clicked4(); this.onclick=null;"></div>
+        <div class="gridbox" id="box5" onclick="clicked5(); this.onclick=null;"></div>
+        <div class="gridbox" id="box6" onclick="clicked6(); this.onclick=null;"></div>
+        <div class="gridbox" id="box7" onclick="clicked7(); this.onclick=null;"></div>
+        <div class="gridbox" id="box8" onclick="clicked8(); this.onclick=null;"></div>
+        
+    </div>
+    
+    <div class="status" id="status">X's Turn</div>
+    <button class="button" id="restart" onclick="location.reload();">
+        Restart
+    </button>
+    
+    <button id="start" onclick="startGame()"><h1>Start</h1></button>
+    <script src="script.js"></script>
+</body>
+
+</html>
